@@ -80,10 +80,3 @@ Open `creditcard_project.ipynb` in Jupyter or VS Code and run its cells. Make su
 
 The model uses 30 numeric features: `Time`, `V1` through `V28`, and `Amount`. `Class` is the training target and is not passed to the model when predicting a synthetic transaction.
 
-## GitHub Upload
-
-Commit the source, documentation, and screenshot: `app.py`, `creditcard_project.ipynb`, `requirements.txt`, `README.md`, `.gitignore`, and `screenshots/fraud-prediction.png`. Do not commit the dataset, virtual environment, or generated `best_model.pkl` and `scaler.pkl` files. The `.gitignore` excludes them.
-
-## Version
-
-1.0.0
