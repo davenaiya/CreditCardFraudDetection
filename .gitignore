@@ -1,0 +1,25 @@
+# Local dataset (large; obtain separately)
+creditcard.csv
+creditcard.xls
+
+# Python environment and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Trained model artifacts
+*.pkl
+*.joblib
+
+# Notebook/editor and Streamlit state
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Local tooling and operating-system files
+.dist/
+.DS_Store
+Thumbs.db
